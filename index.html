@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal website for Aashna, designed by Sumit Kumar. Just a fun and heartfelt tribute.">
+  <title>Just for You, Madam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hey , Welcome!</h1>
+    <p>This little site is just for you.</p>
+  </header>
+
+  <main>
+    <!-- ABOUT YOU SECTION -->
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I'm Sumit Kumar, and I'm glad you're here! Here's a little bit about me:</p>
+      <ul>
+        <li>Main Thora Sa Hi... Masti Karta Hu</li>
+        <li>Thora Sa Coding bhi Janta Hu</li>
+        <li>Jab Mood Acha N Ho Toh Main Sirf Coding Hi Karta Hu</li>
+        <li>Mujhe Acha Nahi Lagta Agr Koi Mujh Se Naraz Ho</li>
+      </ul>
+    </section>
+
+    <!-- MEMORIES SECTION -->
+    <section class="memories">
+      <h2>Here are some of the best memories we've shared (jo ki kuch bhi nahi hain abhi tak):</h2>
+      <p>Lekhin tum chaho toh ye ban sakta hain, baki ye tumhare liye.</p>
+      <div class="photo-gallery">
+        <img src="https://via.placeholder.com/150" alt="Memory 1">
+        <img src="https://via.placeholder.com/150" alt="Memory 2">
+        <img src="https://via.placeholder.com/150" alt="Memory 3">
+      </div>
+    </section>
+
+    <!-- PERSONAL MESSAGE -->
+    <section class="message">
+      <h2>A Little Message For You</h2>
+      <p>Just wanted to say that you're amazing, and I feel lucky to know something about you (itna hi English aata hain). Whether it's [mention something you've done together (jo ki kuch bhi nahi hain abhi tak)] or just talking about [something we both enjoy (jo in future ho sakta hain)], every moment is special with you (jitna bhi hain woh sab).</p>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+      <h2>I REALLY LIKE YOU</h2>
+      <h2>GIVE ME ONE CHANCE TO KNOW ABOUT YOU AND ALSO A CHANCE TO TELL ABOUT MYSELF</h2>
+      <h2>Let's Keep In Touch!</h2>
+      <p>Feel free to text me, or let's grab coffee sometime. I'd love to get to know you more!</p>
+      <a href="https://wa.me/919102992342?text=Hello%2C%20I%20want%20to%20know%20more%20about%20you%20." class="button" target="_blank">Chat on WhatsApp click here!</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ just for you.</p>
+  </footer>
+
+  <!-- Background Music Audio Element -->
+  <audio id="backgroundMusic" loop>
+    <source src="audiobackgroundmusic.mp3" type="audio/mpeg"> <!-- Correct file path for audio -->
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Play Music Button -->
+  <button id="playMusicBtn" class="play-music-button">Play Music</button>
+
+  <script>
+    // Get the button and audio element
+    const playMusicBtn = document.getElementById('playMusicBtn');
+    const backgroundMusic = document.getElementById('backgroundMusic');
+
+    // Event listener to play music when the button is clicked
+    playMusicBtn.addEventListener('click', function() {
+      backgroundMusic.play(); // Play the music
+      playMusicBtn.style.display = 'none'; // Hide the button after it's clicked
+    });
+  </script>
+
+</body>
+</html>

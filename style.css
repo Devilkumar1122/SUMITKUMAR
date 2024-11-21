@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #e94e77;
+    text-align: center;
+  }
+  
+  /* Header Style */
+  header {
+    background-color: #fff3f5;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #888;
+  }
+  
+  /* About Section */
+  .about {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about li {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  /* Memories Section */
+  .memories {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .memories h2 {
+    margin-bottom: 20px;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .photo-gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Message Section */
+  .message {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .message p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 15px;
+  }
+  
+  .contact .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(101, 205, 101); /* WhatsApp Green */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact .button:hover {
+    background-color: #128c7e; /* WhatsApp Dark Green */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #888;
+  }
+  
+  /* Play Music Button Style */
+  .play-music-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #e94e77;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .play-music-button:hover {
+    background-color: #d75d80;
+  }
+  
